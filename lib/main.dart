@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/belajargambar.dart';
+import 'package:flutter_application_1/belajarikon.dart';
+import 'package:flutter_application_1/belajarteks.dart';
 import 'package:flutter_application_1/helo.dart';
+import 'package:flutter_application_1/kontainer.dart';
 import 'package:flutter_application_1/row.dart';
 import 'package:flutter_application_1/column.dart';
 import 'package:flutter_application_1/empat.dart';
 import 'package:flutter_application_1/lima.dart';
+import 'package:flutter_application_1/buatprogram.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +27,7 @@ class MyApp extends StatelessWidget {
        
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: lima(),
+      home: Program(),
     );
   }
 }
